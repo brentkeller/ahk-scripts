@@ -7,6 +7,7 @@ ShortcutsPath := "G:\My Drive\Shortcuts"
 
 #Include Secrets.ahk
 #Include Hotkeys.ahk
+#Include Expansions.ahk
 #Include DR-Expansions.ahk
 #Include DR-Hotkeys.ahk
 

@@ -7,6 +7,7 @@ ShortcutsPath := "C:\Files\shortcuts"
 
 ;#Include Secrets.ahk
 #Include Hotkeys.ahk
+#Include Expansions.ahk
 #Include SP4-Expansions.ahk
 
 #MaxMem 256
