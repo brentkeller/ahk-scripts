@@ -3,7 +3,7 @@
 #Include lib\GetActiveBrowserURL.ahk
 #Include lib\UrlEncodeDecode.ahk
 
-ShortcutsPath := "C:\Files\shortcuts"
+ShortcutsPath := "C:\Dropbox\Brent\SP4\shortcuts"
 
 ;#Include Secrets.ahk
 #Include Hotkeys.ahk
