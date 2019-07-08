@@ -41,8 +41,6 @@ return
  
 ::bacpacrestore::
 WinClip.Clear()
-InputBox, BacPacName, bacpac name, Name of the bacpac without extension
-if ErrorLevel = 0
-    SendInput ."C:\Program Files (x86)\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe" /a:import /sf:C:\Sql\Backup\%BacPacName%.bacpac /tsn:.\SQL2017 /tdn:DEV-bacpac
+SendInput ."C:\Program Files\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe" /a:import /sf:C:\Sql\Backup\foo.bacpac /tsn:.\SQL2017 /tdn:DEV-bacpac
 return
 
