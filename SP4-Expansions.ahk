@@ -4,6 +4,11 @@
 (
 ngrok http -host-header="localhost:55389" 55389
 )
+
+::gotobs::
+(
+cd c:\dev\buckscore\buckscore\Buckscore.Web
+)
  
 ::startpg::
 (

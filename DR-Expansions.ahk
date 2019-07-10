@@ -1,5 +1,9 @@
 ; -------------- TEXT EXPANSION
  
+::gotodr::
+(
+cd c:\dev\dr\DevResults
+)
 
 ::loremipsum::
 (
