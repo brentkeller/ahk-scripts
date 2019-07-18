@@ -5,6 +5,7 @@
 cd c:\dev\dr\DevResults
 )
 
+
 ::loremipsum::
 (
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque 
@@ -48,3 +49,9 @@ WinClip.Clear()
 SendInput ."C:\Program Files\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe" /a:import /sf:C:\Sql\Backup\foo.bacpac /tsn:.\SQL2017 /tdn:DEV-bacpac
 return
 
+::drngrok::
+WinClip.Clear()
+InputBox, subdomain, Instance subdomain, Subdomain of the instance?
+if ErrorLevel = 0
+    SendInput ngrok.exe http -host-header=rewrite %subdomain%.devlocal.us:80
+return
