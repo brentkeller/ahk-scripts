@@ -1,5 +1,15 @@
 ; -------------- TEXT EXPANSION
 
+::gotodev::
+(
+cd c:\dev
+)
+
+::gotowerdz::
+(
+cd c:\dev\projects\werdz
+)
+
 ::gotopom::
 (
 cd C:\Dev\Pomsole\Pomsole\bin\Debug

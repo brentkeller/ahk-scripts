@@ -9,7 +9,7 @@ ngrok http -host-header="localhost:55389" 55389
 (
 cd c:\dev\buckscore\buckscore\Buckscore.Web
 )
- 
+
 ::startpg::
 (
 net start postgresql-x64-10
