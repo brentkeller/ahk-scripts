@@ -5,6 +5,11 @@
 cd c:\dev\dr\DevResults
 )
 
+::gotocev::
+(
+cd c:\dev\factbook\cevitxe
+)
+
 
 ::loremipsum::
 (
