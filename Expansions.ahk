@@ -1,8 +1,23 @@
 ; -------------- TEXT EXPANSION
 
+::gotoscripts::
+(
+cd C:\Dropbox\Brent\SP6\scripts
+)
+
 ::gotodev::
 (
 cd c:\dev
+)
+
+::gotodr::
+(
+cd c:\dev\dr\DevResults
+)
+
+::gotocev::
+(
+cd c:\dev\factbook\cevitxe
 )
 
 ::gotowerdz::

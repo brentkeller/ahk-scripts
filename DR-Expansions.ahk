@@ -1,15 +1,5 @@
 ; -------------- TEXT EXPANSION
  
-::gotodr::
-(
-cd c:\dev\dr\DevResults
-)
-
-::gotocev::
-(
-cd c:\dev\factbook\cevitxe
-)
-
 
 ::loremipsum::
 (
@@ -35,7 +25,7 @@ pede, ornare a, lacinia eu, vulputate vel, nisl.
 
 ::@ivar::
 (
-Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='subdomain');
+Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='leslie');
 )
  
 ; -------------- SIGNATURE
