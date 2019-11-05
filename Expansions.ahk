@@ -42,10 +42,10 @@ C:\Dev\Pomsole\Pomsole\bin\Debug
 
 ::node10::
 (
-nvm use 10.16.0
+nvm use 10.17.0
 )
 
 ::node12::
 (
-nvm use 12.4.0
+nvm use 12.13.0
 )
