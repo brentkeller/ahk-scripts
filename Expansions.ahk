@@ -49,3 +49,8 @@ nvm use 10.17.0
 (
 nvm use 12.13.0
 )
+
+::runadb::
+(
+C:\Users\brent\AppData\Local\Android\Sdk\platform-tools\adb.exe
+)
