@@ -2,7 +2,7 @@
 
 ::gotoscripts::
 (
-cd C:\Dropbox\Brent\SP6\scripts
+cd C:\dev\scripts
 )
 
 ::gotodev::
@@ -23,6 +23,11 @@ cd c:\dev\factbook\cevitxe
 ::gotowerdz::
 (
 cd c:\dev\projects\werdz
+)
+
+::gotobkc::
+(
+cd c:\dev\bkc-gatsby
 )
 
 ::gotopom::
