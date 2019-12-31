@@ -2,7 +2,8 @@
 
 A repository of scripts that I use for [AutoHotKey](https://www.autohotkey.com/) to make life easier and save me some keystrokes. When I worked on multiple computers I would create a separate `*-Main.ahk` to control what gets loaded for the work I did in that environment. I'm currently only working from one machine now so there's only one main script but I've kept things separated in case I have a divided workflow at some point down the road.  
   
-File Summary
+File Summary  
+
 |File|Purpose|
 |--|--|
 |DR-Expansions.ahk|Text expansions relevant to my work at DevResults|
