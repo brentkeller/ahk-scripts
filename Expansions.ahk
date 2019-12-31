@@ -1,4 +1,6 @@
-; -------------- TEXT EXPANSION
+; -------------- TEXT EXPANSIONS
+
+; ---- Terminal directory shortcuts ----
 
 ::gotoscripts::
 (
@@ -35,6 +37,8 @@ cd c:\dev\bkc-gatsby
 cd C:\Dev\Pomsole\Pomsole\bin\Debug
 )
  
+; ---- Pomsole usage helpers ----
+
 ::pomdir::
 (
 C:\Dev\Pomsole\Pomsole\bin\Debug
@@ -45,6 +49,8 @@ C:\Dev\Pomsole\Pomsole\bin\Debug
 .\Pomsole.exe -s 25 -b 5
 )
 
+; ---- Node version shortcuts ----
+
 ::node10::
 (
 nvm use 10.17.0
@@ -52,8 +58,40 @@ nvm use 10.17.0
 
 ::node12::
 (
-nvm use 12.13.0
+nvm use 12.14.0
 )
+
+; ---- BuckScore helpers ----
+
+::bsngrok::
+(
+ngrok http -host-header="localhost:55389" 55389
+)
+
+::gotobs::
+(
+cd c:\dev\buckscore\buckscore\Buckscore.Web
+)
+
+; ---- Postgres server ----
+
+::startpg::
+(
+net start postgresql-x64-10
+)
+ 
+::stoppg::
+(
+net stop postgresql-x64-10
+)
+
+; ---- BKC-apps helpers ----
+
+::bkcdebug::
+(
+$env:DEBUG = "app,app:*"
+)
+; ---- Android development shortcuts ----
 
 ::runadb::
 (

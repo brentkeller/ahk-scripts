@@ -41,17 +41,3 @@ If WinActive("ahk_class Chrome_WidgetWin_1") ; Make shortcut to current URL in C
 FileCreateShortcut, %chrome%, %ShortcutsPath%\%UserInput%.lnk, , %Clipboard%
 }
 Return
-
-; Add task to Asana (Keller Home): Ctrl-Win-P
-; Note: this does not work anymore, need to use a newer API.
-; Check Herb's AHK setup if you want this back: https://github.com/HerbCaudill/ahk-scripts
-;^#p::
-; Requires cURL http://www.confusedbycode.com/curl/#downloads
-;Send ^c
-;InputBox,UserInput,Task,Enter a task to add to Asana (Keller Home):,100,350,,,,,, %Clipboard% 
-;CurlCommand = "C:\Files\Apps\curl.exe" -u %KellerHome_ApiKey%: https://app.asana.com/api/1.0/tasks -d "name=%UserInput%" -d "workspace=%KellerHome_Workspace%" -d "assignee=%KellerHome_Assignee%" 
-;Run %CurlCommand%
-;Pause
-;Return
-
-
