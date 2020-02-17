@@ -27,21 +27,26 @@ cd c:\dev\factbook\cevitxe
 cd c:\dev\projects\werdz
 )
 
-::gotobkc::
+::gotobkcg::
 (
 cd c:\dev\bkc-gatsby
 )
 
+::gotobkcm::
+(
+cd c:\dev\bkc-my
+)
+
 ::gotopom::
 (
-cd C:\Dev\Pomsole\Pomsole\bin\Debug
+cd C:\dev\dotnet\pomsole\Pomsole\bin\Debug
 )
  
 ; ---- Pomsole usage helpers ----
 
 ::pomdir::
 (
-C:\Dev\Pomsole\Pomsole\bin\Debug
+C:\dev\dotnet\pomsole\Pomsole\bin\Debug
 )
 
 ::pomc::
@@ -91,6 +96,7 @@ net stop postgresql-x64-10
 (
 $env:DEBUG = "app,app:*"
 )
+
 ; ---- Android development shortcuts ----
 
 ::runadb::
