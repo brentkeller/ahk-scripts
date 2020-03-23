@@ -24,7 +24,7 @@ cd c:\dev\factbook\cevitxe
 
 ::gotowerdz::
 (
-cd c:\dev\projects\werdz
+cd c:\dev\projects\werdz-app
 )
 
 ::gotobkcg::
