@@ -1,5 +1,10 @@
 ; -------------- TEXT EXPANSIONS
 
+::ttt:: ; Date stamp for file names
+  FormatTime, DateStamp, %A_Now%, yyyy.MM.dd
+  Send, %DateStamp% 
+Return 
+
 ; ---- Terminal directory shortcuts ----
 
 ::gotoscripts::
@@ -63,7 +68,7 @@ nvm use 10.17.0
 
 ::node12::
 (
-nvm use 12.14.0
+nvm use 12.17.0
 )
 
 ; ---- BuckScore helpers ----

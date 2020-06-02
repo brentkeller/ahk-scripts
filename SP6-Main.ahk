@@ -6,6 +6,7 @@
 ShortcutsPath := "C:\drive\Dropbox\Brent\SP6\shortcuts"
 
 ;#Include Secrets.ahk
+#Include Functions.ahk
 #Include Hotkeys.ahk
 #Include Expansions.ahk
 #Include DR-Expansions.ahk
