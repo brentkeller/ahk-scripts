@@ -11,6 +11,7 @@ ShortcutsPath := "C:\drive\Dropbox\Brent\SP6\shortcuts"
 #Include Expansions.ahk
 #Include DR-Expansions.ahk
 #Include DR-Hotkeys.ahk
+#Include Pen.ahk
 
 #MaxMem 256
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
