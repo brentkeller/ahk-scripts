@@ -9,7 +9,7 @@ Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='les
 
 ::ssig::
 WinClip.Clear()
-Html = <div style='font:1em arial,helvetica,sans-serif;color:#aaa'><p><b style='color:black'>Brent Keller</b><br>DevResults | <a href="http://devresults.com">devresults.com</a><br>641 S Street NW | 4th Floor | Washington, DC 20001<br>724.953.4968</p><p><b style='color:black'>DevResults</b>: Project management for effective development</p></div>
+Html = <div style='font:1em arial,helvetica,sans-serif;color:#aaa'><p><b style='color:black'>Brent Keller</b><br>DevResults | <a href="http://devresults.com">devresults.com</a><br>655 New York Avenue | 6th Floor<br>Washington, DC 20001<br>724.953.4968</p><p><b style='color:black'>DevResults</b>: Project management for effective development</p></div>
 WinClip.SetHTML(Html)
 Send ^v ; paste
 return
