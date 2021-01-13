@@ -71,6 +71,11 @@ nvm use 10.17.0
 nvm use 12.17.0
 )
 
+::node155::
+(
+nvm use 15.5.1
+)
+
 ; ---- BuckScore helpers ----
 
 ::bsngrok::
