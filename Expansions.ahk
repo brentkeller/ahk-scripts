@@ -114,6 +114,11 @@ $env:DEBUG = "app,app:*"
 C:\Users\brent\AppData\Local\Android\Sdk\platform-tools\adb.exe
 )
 
+::journalmonthcal::
+(
+journalmonthtemplate
+)
+
 ::journalmonthtemplate::
 (
 1
