@@ -12,12 +12,3 @@
 ;}
 ;return
 
-; Connect to VPN (win-V)
-#v::
-run rasphone "devresults-azure" -d
-sleep, 1000 
-send {ENTER}
-sleep, 1000 
-send {ENTER}
-sleep, 10000 
-return
