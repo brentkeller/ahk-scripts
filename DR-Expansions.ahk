@@ -5,6 +5,17 @@
 Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='leslie');
 )
 
+::npmtw::
+(
+npm run test:watch
+)
+
+::npmtc::
+(
+npm run test:chutzpah
+)
+
+
 ; -------------- SIGNATURE
 
 ::ssig::
