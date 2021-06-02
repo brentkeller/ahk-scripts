@@ -46,7 +46,7 @@ cd c:\dev\bkc-my
 (
 cd C:\dev\dotnet\pomsole\Pomsole\bin\Debug
 )
- 
+
 ; ---- Pomsole usage helpers ----
 
 ::pomdir::
@@ -118,6 +118,13 @@ $env:DEBUG = "app,app:*"
 (
 C:\Users\brent\AppData\Local\Android\Sdk\platform-tools\adb.exe
 )
+
+; ---- Helpers ----
+
+::bkexport::
+  FormatTime, DateStamp, %A_Now%, yyyy.MM.dd
+  Send, bk export C:\drive\Brent\Data\bkcli\bkcli-%DateStamp%.json
+Return
 
 ::journalmonthcal::
 (
