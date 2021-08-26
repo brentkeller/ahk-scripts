@@ -10,6 +10,11 @@ Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='les
 npm run test:watch
 )
 
+::npmtj::
+(
+npm run test:jest
+)
+
 ::npmtc::
 (
 npm run test:chutzpah
