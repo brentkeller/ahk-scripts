@@ -23,9 +23,9 @@ npm run test:chutzpah
 
 ; -------------- SIGNATURE
 
-::ssig::
+::drsig::
 WinClip.Clear()
-Html = <div style='font:1em arial,helvetica,sans-serif;color:#aaa'><p><b style='color:black'>Brent Keller</b><br>DevResults | <a href="http://devresults.com">devresults.com</a><br>655 New York Avenue | 6th Floor<br>Washington, DC 20001</p><p><b style='color:black'>DevResults</b>: Project management for effective development</p></div>
+Html = <div style='font:1em arial,helvetica,sans-serif;color:#aaa'><p><b style='color:black'>Brent Keller</b><br>DevResults | <a href="http://devresults.com">devresults.com</a><br>655 New York Avenue NW, 6th Floor<br>Washington, DC 20001</p><p><b style='color:black'>DevResults</b>: Project management for effective development</p></div>
 WinClip.SetHTML(Html)
 Send ^v ; paste
 return
