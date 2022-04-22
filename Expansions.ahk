@@ -81,16 +81,16 @@ nvm use 14.14.0
 nvm use 15.5.1
 )
 
-; ---- BuckScore helpers ----
+; ---- MongoDB server ----
 
-::bsngrok::
+::startmongo::
 (
-ngrok http -host-header="localhost:55389" 55389
+docker start mongodb
 )
 
-::gotobs::
+::stopmongo::
 (
-cd c:\dev\buckscore\buckscore\Buckscore.Web
+docker stop mongodb
 )
 
 ; ---- Postgres server ----
@@ -105,13 +105,6 @@ net start postgresql-x64-10
 net stop postgresql-x64-10
 )
 
-; ---- BKC-apps helpers ----
-
-::bkcdebug::
-(
-$env:DEBUG = "app,app:*"
-)
-
 ; ---- Android development shortcuts ----
 
 ::runadb::
@@ -120,6 +113,11 @@ C:\Users\brent\AppData\Local\Android\Sdk\platform-tools\adb.exe
 )
 
 ; ---- Helpers ----
+
+::bkbackup::
+(
+bkexport
+)
 
 ::bkexport::
   FormatTime, DateStamp, %A_Now%, yyyy.MM.dd
