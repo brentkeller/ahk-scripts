@@ -3,10 +3,9 @@
 #Include lib\GetActiveBrowserURL.ahk
 #Include lib\UrlEncodeDecode.ahk
 
-GDriveBase := "C:\drive"
-ShortcutsPath := "C:\drive\Brent\SP6\shortcuts"
-chrome := "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-curl := "C:\Files\Apps\curl.exe"
+GDriveBase := "H:\My Drive"
+ShortcutsPath := "H:\My Drive\Brent\SP8\shortcuts"
+chrome := "C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 ;#Include Secrets.ahk
 #Include Functions.ahk

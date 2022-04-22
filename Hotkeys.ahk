@@ -1,6 +1,3 @@
-chrome := "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-curl := "C:\Files\Apps\curl.exe"
-
 ; Win-U
 #u::CopyBrowserURL()
 ; Ctrl-Win-U

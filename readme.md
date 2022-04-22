@@ -11,3 +11,4 @@ File Summary
 |Expansions.ahk|General text expansions I use|
 |Hotkeys.ahk|General hotkeys I used|
 |SP6-Main.ahk|The main script loaded on my Surface Pro 6 machine|
+|SP8-Main.ahk|The main script loaded on my Surface Pro 8 machine|

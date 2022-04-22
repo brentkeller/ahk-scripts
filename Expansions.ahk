@@ -123,7 +123,7 @@ C:\Users\brent\AppData\Local\Android\Sdk\platform-tools\adb.exe
 
 ::bkexport::
   FormatTime, DateStamp, %A_Now%, yyyy.MM.dd
-  Send, bk export C:\drive\Brent\Data\bkcli\bkcli-%DateStamp%.json
+  Send, bk export "%GDriveBase%\Brent\Data\bkcli\bkcli-%DateStamp%.json"
 Return
 
 ::journalmonthcal::
