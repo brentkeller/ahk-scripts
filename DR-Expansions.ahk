@@ -5,6 +5,11 @@
 Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='leslie');
 )
 
+::gulpbuild::
+(
+npx gulp build --production --headless
+)
+
 ::npmtw::
 (
 npm run test:watch
