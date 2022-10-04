@@ -5,7 +5,17 @@
 Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='leslie');
 )
 
+::drtog::
+(
+devr toggl -gcs --clients DevResults --tags "-meeting,-bonus,-dependencies" 
+)
+
 ::gulpbuild::
+(
+drbuild
+)
+
+::drbuild::
 (
 npx gulp build --production --headless
 )
@@ -28,6 +38,11 @@ npm run test:chutzpah
 ::revpr::
 (
 Review PR 
+)
+
+::dbotmrg::
+(
+@dependabot merge 
 )
 
 ; -------------- SIGNATURE
