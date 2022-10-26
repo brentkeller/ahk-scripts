@@ -18,25 +18,19 @@ C:\dev\dotnet\pomsole\Pomsole\bin\Debug
 )
 
 ; ---- Node version shortcuts ----
-
-::node10::
-(
-nvm use 10.17.0
-)
-
 ::node12::
 (
-nvm use 12.17.0
+nvm use 12.22.10
 )
 
 ::node14::
 (
-nvm use 14.14.0
+nvm use 14.19.3
 )
 
-::node155::
+::node16::
 (
-nvm use 15.5.1
+nvm use 16.13.2
 )
 
 ; ---- MongoDB server ----
