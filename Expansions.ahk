@@ -5,48 +5,6 @@
   Send, %DateStamp% 
 Return 
 
-; ---- Terminal directory shortcuts ----
-
-::gotoscripts::
-(
-cd C:\dev\scripts
-)
-
-::gotodev::
-(
-cd c:\dev
-)
-
-::gotodr::
-(
-cd c:\dev\dr\DevResults
-)
-
-::gotocev::
-(
-cd c:\dev\factbook\cevitxe
-)
-
-::gotowerdz::
-(
-cd c:\dev\projects\werdz-app
-)
-
-::gotobkcg::
-(
-cd c:\dev\bkc-gatsby
-)
-
-::gotobkcm::
-(
-cd c:\dev\bkc-my
-)
-
-::gotopom::
-(
-cd C:\dev\dotnet\pomsole\Pomsole\bin\Debug
-)
-
 ; ---- Pomsole usage helpers ----
 
 ::pomdir::
