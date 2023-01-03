@@ -7,7 +7,7 @@ GDriveBase := "H:\My Drive"
 ShortcutsPath := "H:\My Drive\Brent\SP8\shortcuts"
 chrome := "C:\Program Files\Google\Chrome\Application\chrome.exe"
 
-;#Include Secrets.ahk
+#Include H:\My Drive\Brent\SP8\config\Secrets.ahk
 #Include Functions.ahk
 #Include Hotkeys.ahk
 #Include Expansions.ahk

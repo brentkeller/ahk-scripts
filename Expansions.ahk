@@ -66,6 +66,10 @@ C:\Users\brent\AppData\Local\Android\Sdk\platform-tools\adb.exe
 
 ; ---- Helpers ----
 
+::octossh::
+ Send %octosshcmd%
+Return
+
 ::bkbackup::
 (
 bkexport
