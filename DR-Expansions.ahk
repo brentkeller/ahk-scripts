@@ -7,7 +7,7 @@ Declare @InstanceID int = (Select InstanceID from Instances where Subdomain='les
 
 ::drtog::
 (
-devr toggl -gcs --clients DevResults --tags "-meeting,-bonus,-dependencies,-PR Review" 
+devr toggl -gcs --clients DevResults --tags "-meeting,-bonus,-dependencies,-PR Review,-Performance" 
 )
 
 ::gulpbuild::
