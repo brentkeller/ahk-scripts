@@ -20,6 +20,11 @@ drbuild
 npx gulp build --production --headless
 )
 
+::drdeploy::
+(
+C:\"Program Files"\"Microsoft Visual Studio"\2022\Professional\MSBuild\Current\Bin\msbuild.exe buildscripts/deploy.proj -t:PublishRaw
+)
+
 ::npmtw::
 (
 npm run test:watch
