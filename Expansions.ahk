@@ -18,16 +18,6 @@ C:\dev\dotnet\pomsole\Pomsole\bin\Debug
 )
 
 ; ---- Node version shortcuts ----
-::node12::
-(
-nvm use 12.22.10
-)
-
-::node14::
-(
-nvm use 14.19.3
-)
-
 ::node16::
 (
 nvm use 16.13.2
@@ -43,18 +33,6 @@ docker start mongodb
 ::stopmongo::
 (
 docker stop mongodb
-)
-
-; ---- Postgres server ----
-
-::startpg::
-(
-net start postgresql-x64-10
-)
- 
-::stoppg::
-(
-net stop postgresql-x64-10
 )
 
 ; ---- Android development shortcuts ----
